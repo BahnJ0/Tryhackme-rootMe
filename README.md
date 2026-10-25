@@ -154,5 +154,5 @@ La práctica permitió comprobar cómo una debilidad en la carga de archivos pue
 
 También se observó que una configuración incorrecta de permisos SUID puede transformar un acceso local limitado en un compromiso completo del sistema.
 
-El ejercicio reforzó la importancia de combinar el reconocimiento de servicios, la enumeración web, el análisis de permisos de Linux y la consulta de referencias técnicas para comprender no solo cómo explotar una debilidad en un laboratorio, sino también cómo prevenirla.
+El ejercicio reforzó la importancia de combinar el reconocimiento de servicios, la enumeración web, el análisis de permisos de Linux y la consulta de referencias técnicas para comprender no solo cómo explotar una debilidad en un laboratorio, sino también cómo prevenirla. (las imagenes inicialmente las estaba colocando pero como que no me funciono y solo decidi dejarlas en la carpeta de evidencia)
 
