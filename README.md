@@ -148,22 +148,6 @@ Las flags se obtuvieron durante la práctica. Por seguridad, no se incluyen sus 
 
 > Las medidas deben probarse previamente en un entorno de administración controlado para evitar afectar servicios legítimos.
 
-## 6. Evidencias
-
-Las capturas deben almacenarse en la carpeta `evidencias/` del repositorio.
-
-| Archivo sugerido | Contenido |
-|---|---|
-| `01-nmap.png` | Puertos y servicios detectados |
-| `02-gobuster.png` | Directorios encontrados |
-| `03-formulario-carga.png` | Formulario de `/panel` |
-| `04-carga-archivo.png` | Resultado de la prueba de carga |
-| `05-acceso-inicial.png` | Evidencia de acceso inicial, sin datos sensibles |
-| `06-enumeracion-suid.png` | Binario con permisos SUID identificado |
-| `07-verificacion-privilegios.png` | Verificación del nivel de privilegios |
-
-Las capturas deben mostrar únicamente la información necesaria para demostrar cada etapa. No deben contener flags completas, contraseñas, claves privadas, tokens ni otros secretos.
-
 ## 7. Conclusiones y aprendizajes
 
 La práctica permitió comprobar cómo una debilidad en la carga de archivos puede convertirse en un punto de entrada al sistema cuando se permite ejecutar contenido cargado por un usuario.
@@ -172,14 +156,3 @@ También se observó que una configuración incorrecta de permisos SUID puede tr
 
 El ejercicio reforzó la importancia de combinar el reconocimiento de servicios, la enumeración web, el análisis de permisos de Linux y la consulta de referencias técnicas para comprender no solo cómo explotar una debilidad en un laboratorio, sino también cómo prevenirla.
 
-## 8. Referencias
-
-- TryHackMe — RootMe: https://tryhackme.com/room/rrootme
-- GTFOBins: https://gtfobins.github.io/
-- OWASP — File Upload Cheat Sheet: https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html
-
----
-
-**Autor:** [Tu nombre o alias]  
-**Fecha:** [Fecha de realización]  
-**Repositorio:** [Enlace al repositorio de GitHub]
