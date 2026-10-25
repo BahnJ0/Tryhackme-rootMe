@@ -175,7 +175,11 @@ Las modificaciones de permisos deben probarse en un entorno controlado antes de 
 
 ## 6. Evidencias de la práctica
 
-Las evidencias se organizan en la carpeta `evidencias/` del repositorio. Los archivos previstos documentan las etapas principales del procedimiento:
+Se adjuntan en el repositorio las evidencias disponibles de las etapas principales del laboratorio RootMe, incluyendo pruebas relacionadas con el reconocimiento, la explotación y la escalada de privilegios.
+
+Debido a las limitaciones de tiempo durante la ejecución de la máquina virtual, no fue posible conservar todas las capturas previstas inicialmente. No obstante, las evidencias publicadas permiten respaldar parte del procedimiento documentado.
+
+Las pruebas se presentan sin exponer directamente los valores de las flags ni otros datos sensibles.
 
 ## 7. Conclusiones y aprendizajes
 
