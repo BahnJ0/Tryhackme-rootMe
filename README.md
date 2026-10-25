@@ -99,7 +99,6 @@ En el laboratorio se utilizó un archivo PHP de prueba para comprobar si el serv
 
 - [03-formulario-carga.png](evidencias/03-formulario-carga.png)
 - [04-carga-archivo.png](evidencias/04-carga-archivo.png)
-- [05-acceso-inicial.png](evidencias/05-acceso-inicial.png)
 
 ### 4.4. Enumeración local y escalada de privilegios
 
@@ -126,11 +125,6 @@ Se consultó GTFOBins para contrastar las posibilidades de abuso del binario y s
 - Modificación de archivos críticos.
 - Compromiso de la integridad y confidencialidad del sistema.
 - Obtención de privilegios administrativos si la configuración vulnerable lo permite.
-
-**Evidencias:**
-
-- [06-enumeracion-suid.png](evidencias/06-enumeracion-suid.png)
-- [07-verificacion-privilegios.png](evidencias/07-verificacion-privilegios.png)
 
 Las flags se obtuvieron durante la práctica. Sus valores se omiten de este informe público para evitar exponerlas directamente.
 
@@ -182,20 +176,6 @@ Las modificaciones de permisos deben probarse en un entorno controlado antes de 
 ## 6. Evidencias de la práctica
 
 Las evidencias se organizan en la carpeta `evidencias/` del repositorio. Los archivos previstos documentan las etapas principales del procedimiento:
-
-| Archivo | Evidencia |
-|---|---|
-| `01-nmap.png` | Reconocimiento inicial |
-| `02-gobuster.png` | Enumeración de directorios |
-| `03-formulario-carga.png` | Inspección del formulario |
-| `04-carga-archivo.png` | Prueba de carga de archivos |
-| `05-acceso-inicial.png` | Obtención del acceso inicial |
-| `06-enumeracion-suid.png` | Enumeración de permisos SUID |
-| `07-verificacion-privilegios.png` | Verificación de privilegios |
-
-Los nombres anteriores corresponden a las rutas previstas en el informe. Para que los enlaces funcionen en GitHub, los archivos deben existir en la carpeta indicada y sus nombres deben coincidir exactamente.
-
-Las capturas deben permitir verificar los resultados relevantes sin exponer las flags completas, contraseñas ni otros datos sensibles.
 
 ## 7. Conclusiones y aprendizajes
 
